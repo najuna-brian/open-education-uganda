@@ -1,0 +1,61 @@
+/* src/components/MaterialItem.css */
+.material-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 0.5rem; /* Vertical padding, less horizontal as it's in a list */
+  border-bottom: 1px solid #f0f0f0; /* Lighter separator */
+  transition: background-color 0.2s ease;
+}
+
+.material-item:last-child {
+  border-bottom: none;
+}
+
+.material-item:hover {
+  background-color: #f8f9fa; /* Subtle hover for the list item */
+}
+
+.material-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #0056b3; /* Link color */
+  flex-grow: 1; /* Allow title to take up space */
+}
+
+.material-link:hover .material-title {
+  text-decoration: underline;
+}
+
+.material-icon {
+  margin-right: 0.8rem;
+  font-size: 1.3em; /* Slightly larger icon */
+  color: #495057;
+}
+
+.material-title {
+  font-size: 0.95em;
+  color: #343a40; /* Darker text for title */
+  margin-right: 0.5rem; /* Space before size */
+  word-break: break-word;
+}
+
+.material-size {
+  font-size: 0.8em;
+  color: #6c757d; /* Grey for size */
+  margin-right: 1rem;
+  white-space: nowrap;
+}
+
+.material-date {
+  font-size: 0.8em;
+  color: #868e96; /* Lighter grey for date */
+  white-space: nowrap;
+}
+
+/* Example: Add a download button (optional) */
+.material-actions .button {
+  padding: 0.3rem 0.6rem;
+  font-size: 0.8rem;
+}

@@ -1,0 +1,898 @@
+{
+  "name": "Open Education Uganda",
+  "type": "root",
+  "colleges": [
+    {
+      "name": "College of Education and External Studies",
+      "type": "college",
+      "departments": [
+        {
+          "name": "Curriculum, Teaching & Media",
+          "type": "department",
+          "programs": [
+           {
+  "name": "PROGRAM_NAME_HERE (e.g., Bachelor of Science in Biology)",
+  "type": "program",
+  "degreeType": "DEGREE_TYPE_HERE (e.g., Degree, Diploma, Certificate)",
+  "years": [
+    {
+      "name": "Year 1",
+      "type": "year",
+      "semesters": [
+        {
+          "name": "Semester 1",
+          "type": "semester",
+          "courses": [
+            {
+              "name": "COURSE_CODE_1: Course Name 1 (e.g., BIO1101: Introduction to Biology)",
+              "code": "COURSE_CODE_1 (e.g., BIO1101)",
+              "type": "course",
+              "description": "BRIEF_COURSE_DESCRIPTION_HERE.",
+              "materialTypes": [
+                {
+                  "name": "Study Notes",
+                  "type": "materialType",
+                  "materials": [
+                    {
+                      "id": "sn_COURSECODE1_uniqueid1 (e.g., sn_bio1101_01)",
+                      "title": "Material Title (e.g., Module 1 - Cell Structure.pdf)",
+                      "fileType": "pdf (or docx, pptx, video, quiz, etc.)",
+                      "url": "# (or actual link if available)",
+                      "size": "X.XMB (e.g., 2.1MB or N/A for quizzes)",
+                      "uploadDate": "YYYY-MM-DD (e.g., 2024-08-15)"
+                    }
+
+                  ]
+                },
+                {
+                  "name": "Past Papers",
+                  "type": "materialType",
+                  "materials": [
+
+                  ]
+                },
+                {
+                  "name": "Slides",
+                  "type": "materialType",
+                  "materials": [
+
+                  ]
+                },
+                {
+                  "name": "Quizzes",
+                  "type": "materialType",
+                  "materials": [
+                
+                  ]
+                },
+                {
+                  "name": "Assignments",
+                  "type": "materialType",
+                  "materials": [
+                
+                  ]
+                },
+                {
+                  "name": "Video Lectures",
+                  "type": "materialType",
+                  "materials": [
+                 
+                  ]
+                }
+              
+              ]
+            }
+
+          ]
+        },
+        {
+          "name": "Semester 2",
+          "type": "semester",
+          "courses": [
+
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Year 2",
+      "type": "year",
+      "semesters": [
+        {
+          "name": "Semester 1",
+          "type": "semester",
+          "courses": [
+          ]
+        },
+        {
+          "name": "Semester 2",
+          "type": "semester",
+          "courses": [
+        
+          ]
+        }
+      ]
+    }
+  ]
+}
+          ]
+        },
+        {
+          "name": "Foundations of Education",
+          "type": "department",
+          "programs": [
+             { "name": "PhD in Education", "type": "program", "degreeType": "Degree", "years": [] }
+          ]
+        },
+        {
+          "name": "Educational Psychology",
+          "type": "department",
+          "programs": [
+            { "name": "Master of Education (Psychology)", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "Certificate in Guidance and Counseling", "type": "program", "degreeType": "Certificate", "years": [] }
+          ]
+        },
+        {
+          "name": "Educational Management & Administration",
+          "type": "department",
+          "programs": [
+            { "name": "Master of Education (Planning)", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "Diploma in Educational Planning and Management", "type": "program", "degreeType": "Diploma", "years": [] }
+          ]
+        },
+        {
+          "name": "Special Needs and Inclusive Education",
+          "type": "department",
+          "programs": [
+            {
+              "name": "Bachelor of Education (Primary)", "type": "program", "degreeType": "Degree",
+              "years": [
+                {
+                  "name": "Year 1", "type": "year",
+                  "semesters": [
+                    {
+                      "name": "Semester 1", "type": "semester",
+                      "courses": [
+                        {
+                          "name": "EDU1101: Foundations of Primary Education", "code": "EDU1101", "type": "course", "description": "An introduction to the principles, history, and philosophy of primary education in Uganda.",
+                          "materialTypes": [
+                            { "name": "Study Notes", "type": "materialType", "materials": [
+                                { "id": "sn_edu1101_01", "title": "Module 1 - History of Education.pdf", "fileType": "pdf", "url": "#", "size": "2.1MB", "uploadDate": "2024-08-15" },
+                                { "id": "sn_edu1101_02", "title": "Module 2 - Philosophy of Ed.pdf", "fileType": "pdf", "url": "#", "size": "1.8MB", "uploadDate": "2024-08-20" }
+                              ]
+                            },
+                            { "name": "Past Papers", "type": "materialType", "materials": [
+                                { "id": "pp_edu1101_01", "title": "EDU1101 Exam - 2023.pdf", "fileType": "pdf", "url": "#", "size": "750KB", "uploadDate": "2024-01-10" }
+                              ]
+                            },
+                            { "name": "Slides", "type": "materialType", "materials": [
+                                { "id": "sl_edu1101_01", "title": "Week 1-2 Lecture Slides.pptx", "fileType": "pptx", "url": "#", "size": "3.5MB", "uploadDate": "2024-08-18" }
+                              ]
+                            },
+                            { "name": "Quizzes", "type": "materialType", "materials": [
+                                { "id": "qz_edu1101_01", "title": "Quiz 1 - Philosophy Concepts", "fileType": "quiz", "url": "#", "size": "N/A", "uploadDate": "2024-09-05" }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "PSY1102: Child Development & Learning", "code": "PSY1102", "type": "course", "description": "Understanding cognitive, social, and emotional development in early and middle childhood.",
+                          "materialTypes": [
+                            { "name": "Study Notes", "type": "materialType", "materials": [
+                                { "id": "sn_psy1102_01", "title": "Theories of Child Development.pdf", "fileType": "pdf", "url": "#", "size": "2.5MB", "uploadDate": "2024-08-16" }
+                              ]
+                            },
+                            { "name": "Video Lectures", "type": "materialType", "materials": [
+                                { "id": "vid_psy1102_01", "title": "Lecture: Piaget's Stages", "fileType": "video", "url": "#", "size": "150MB", "uploadDate": "2024-08-22" }
+                              ]
+                            },
+                            { "name": "Summaries", "type": "materialType", "materials": [
+                                { "id": "sum_psy1102_01", "title": "Key Concepts Summary Sheet.pdf", "fileType": "pdf", "url": "#", "size": "300KB", "uploadDate": "2024-09-10" }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "ENG1103: Communication Skills for Teachers", "code": "ENG1103", "type": "course", "description": "Developing effective oral and written communication strategies for the classroom.",
+                          "materialTypes": [
+                            { "name": "Study Notes", "type": "materialType", "materials": [
+                                { "id": "sn_eng1103_01", "title": "Effective Classroom Communication.pdf", "fileType": "pdf", "url": "#", "size": "1.2MB", "uploadDate": "2024-08-17" }
+                              ]
+                            },
+                            { "name": "Assignments", "type": "materialType", "materials": [
+                                { "id": "as_eng1103_01", "title": "Assignment 1 - Lesson Plan Communication.docx", "fileType": "docx", "url": "#", "size": "80KB", "uploadDate": "2024-08-25" }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "name": "ICT1104: Introduction to ICT in Education", "code": "ICT1104", "type": "course", "description": "Basic concepts of Information and Communication Technology and its application in primary education.",
+                          "materialTypes": [
+                            { "name": "Study Notes", "type": "materialType", "materials": [
+                                { "id": "sn_ict1104_01", "title": "ICT Basics for Educators.pdf", "fileType": "pdf", "url": "#", "size": "2.0MB", "uploadDate": "2024-08-18" }
+                              ]
+                            },
+                             { "name": "Quizzes", "type": "materialType", "materials": [
+                                { "id": "qz_ict1104_01", "title": "Quiz - Basic ICT Terms", "fileType": "quiz", "url": "#", "size": "N/A", "uploadDate": "2024-09-12" }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Semester 2", "type": "semester",
+                      "courses": [
+                        {
+                          "name": "PED1201: Pedagogy for Primary Mathematics", "code": "PED1201", "type": "course", "description": "Methods and strategies for teaching mathematics effectively in primary schools.",
+                          "materialTypes": [
+                            { "name": "Study Notes", "type": "materialType", "materials": [{ "id": "sn_ped1201_01", "title": "Teaching Primary Math.pdf", "fileType": "pdf", "url": "#", "size": "2.3MB", "uploadDate": "2025-01-15" }] },
+                            { "name": "Past Papers", "type": "materialType", "materials": [] }
+                          ]
+                        },
+                        {
+                          "name": "PED1202: Pedagogy for Primary Science", "code": "PED1202", "type": "course", "description": "Exploring effective teaching approaches for primary science education.",
+                          "materialTypes": [
+                            { "name": "Study Notes", "type": "materialType", "materials": [{ "id": "sn_ped1202_01", "title": "Inquiry-Based Science Teaching.pdf", "fileType": "pdf", "url": "#", "size": "1.9MB", "uploadDate": "2025-01-18" }] }
+                          ]
+                        },
+                        {
+                          "name": "SNE1203: Introduction to Special Needs Education", "code": "SNE1203", "type": "course", "description": "Overview of different special needs and inclusive classroom practices.",
+                          "materialTypes": [
+                            { "name": "Study Notes", "type": "materialType", "materials": [{ "id": "sn_sne1203_01", "title": "Understanding Special Needs.pdf", "fileType": "pdf", "url": "#", "size": "2.0MB", "uploadDate": "2025-01-20" }] },
+                            { "name": "Slides", "type": "materialType", "materials": [{ "id": "sl_sne1203_01", "title": "Inclusive Classroom Strategies.pptx", "fileType": "pptx", "url": "#", "size": "4.0MB", "uploadDate": "2025-02-01" }] }
+                          ]
+                        },
+                        {
+                          "name": "ART1204: Creative Arts in Primary Education", "code": "ART1204", "type": "course", "description": "Integrating music, drama, and visual arts into primary curriculum.",
+                          "materialTypes": [
+                            { "name": "Study Notes", "type": "materialType", "materials": [{ "id": "sn_art1204_01", "title": "Creative Arts Handbook.pdf", "fileType": "pdf", "url": "#", "size": "3.1MB", "uploadDate": "2025-01-22" }] }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Year 2", "type": "year",
+                  "semesters": [
+                    { "name": "Semester 1", "type": "semester", "courses": [] },
+                    { "name": "Semester 2", "type": "semester", "courses": [] }
+                  ]
+                },
+                {
+                  "name": "Year 3", "type": "year",
+                  "semesters": [
+                    { "name": "Semester 1", "type": "semester", "courses": [] },
+                    { "name": "Semester 2", "type": "semester", "courses": [] }
+                  ]
+                },
+                {
+                  "name": "Year 4", "type": "year",
+                  "semesters": [
+                    { "name": "Semester 1", "type": "semester", "courses": [] },
+                    { "name": "Semester 2", "type": "semester", "courses": [] }
+                  ]
+                }
+              ]
+            },
+            { "name": "Bachelor of Education (Secondary)", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "Bachelor of Education (Early Childhood)", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "Bachelor of Arts with Education", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "BSc with Education", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "B.Ed. in Special Needs Education", "type": "program", "degreeType": "Degree", "years": [] },
+            {
+              "name": "Diploma in Special Needs Education", "type": "program", "degreeType": "Diploma",
+              "years": [
+                {
+                  "name": "Year 1", "type": "year",
+                  "semesters": [
+                    {
+                      "name": "Semester 1", "type": "semester",
+                      "courses": [
+                        {
+                          "name": "DSNE111: Introduction to Disabilities", "code": "DSNE111", "type": "course", "description": "Understanding various types of disabilities and their implications for learning.",
+                          "materialTypes": [
+                            { "name": "Study Notes", "type": "materialType", "materials": [{ "id": "sn_dsne111_01", "title": "Disability Categories.pdf", "fileType": "pdf", "url": "#", "size": "1.5MB", "uploadDate": "2024-09-01" }] },
+                            { "name": "Past Papers", "type": "materialType", "materials": [] }
+                          ]
+                        },
+                        {
+                          "name": "DSNE112: Inclusive Education Practices", "code": "DSNE112", "type": "course", "description": "Strategies for creating and managing inclusive learning environments.",
+                          "materialTypes": [
+                            { "name": "Study Notes", "type": "materialType", "materials": [{ "id": "sn_dsne112_01", "title": "Inclusive Teaching Methods.pdf", "fileType": "pdf", "url": "#", "size": "1.7MB", "uploadDate": "2024-09-05" }] }
+                          ]
+                        }
+                      ]
+                    },
+                    { "name": "Semester 2", "type": "semester", "courses": [] }
+                  ]
+                },
+                {
+                  "name": "Year 2", "type": "year",
+                  "semesters": [
+                    { "name": "Semester 1", "type": "semester", "courses": [] },
+                    { "name": "Semester 2", "type": "semester", "courses": [] }
+                  ]
+                }
+              ]
+            },
+            { "name": "Diploma in Education (Primary)", "type": "program", "degreeType": "Diploma", "years": [] },
+            { "name": "Diploma in Education (Secondary)", "type": "program", "degreeType": "Diploma", "years": [] },
+            { "name": "Diploma in Education (ECDE)", "type": "program", "degreeType": "Diploma", "years": [] },
+            { "name": "Certificate in Early Childhood Education", "type": "program", "degreeType": "Certificate", "years": [] }
+          ]
+        },
+        {
+          "name": "Distance & Lifelong Learning",
+          "type": "department",
+          "programs": [
+            { "name": "Diploma in Adult and Community Education", "type": "program", "degreeType": "Diploma", "years": [] },
+            { "name": "Certificate in Adult Education and Community Development", "type": "program", "degreeType": "Certificate", "years": [] }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "College of Humanities and Social Sciences",
+      "type": "college",
+      "departments": [
+        {
+          "name": "History, Literature, Philosophy, Languages",
+          "type": "department",
+          "programs": [
+            { "name": "BA in Social Sciences", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "BA in Arts", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "MA in Literature", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "MA in Philosophy", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "PhD in Humanities and Social Sciences", "type": "program", "degreeType": "Degree", "years": [] }
+          ]
+        },
+        {
+          "name": "Journalism & Communication",
+          "type": "department",
+          "programs": [
+            {
+              "name": "BA in Mass Communication", "type": "program", "degreeType": "Degree",
+              "years": [
+                {
+                  "name": "Year 1", "type": "year",
+                  "semesters": [
+                    {
+                      "name": "Semester 1", "type": "semester",
+                      "courses": [
+                        {
+                          "name": "JOU1101: Introduction to Mass Communication", "code": "JOU1101", "type": "course", "description": "Theories, history, and functions of mass media in society.",
+                          "materialTypes": [
+                            { "name": "Study Notes", "type": "materialType", "materials": [{ "id": "sn_jou1101_01", "title": "Mass Comm Theories.pdf", "fileType": "pdf", "url": "#", "size": "2.0MB", "uploadDate": "2024-08-20" }] },
+                            { "name": "Slides", "type": "materialType", "materials": [{ "id": "sl_jou1101_01", "title": "Media Landscape Overview.pptx", "fileType": "pptx", "url": "#", "size": "3.0MB", "uploadDate": "2024-08-25" }] }
+                          ]
+                        },
+                        {
+                          "name": "COM1102: Communication Theory and Practice", "code": "COM1102", "type": "course", "description": "Fundamental theories of human communication and their practical applications.",
+                          "materialTypes": [
+                            { "name": "Study Notes", "type": "materialType", "materials": [{ "id": "sn_com1102_01", "title": "Communication Models.pdf", "fileType": "pdf", "url": "#", "size": "1.5MB", "uploadDate": "2024-08-22" }] }
+                          ]
+                        }
+                      ]
+                    },
+                    { "name": "Semester 2", "type": "semester", "courses": [] }
+                  ]
+                },
+                { "name": "Year 2", "type": "year", "semesters": [] },
+                { "name": "Year 3", "type": "year", "semesters": [] }
+              ]
+            },
+            { "name": "BA in Journalism", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "MA in Journalism", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "Diploma in Mass Communication", "type": "program", "degreeType": "Diploma", "years": [] },
+            { "name": "Diploma in Public Relations", "type": "program", "degreeType": "Diploma", "years": [] },
+            { "name": "Certificate in Communication Skills", "type": "program", "degreeType": "Certificate", "years": [] }
+          ]
+        },
+        {
+          "name": "Social Work & Social Administration",
+          "type": "department",
+          "programs": [
+            { "name": "BA in SWASA", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "Diploma in Social Work and Social Administration", "type": "program", "degreeType": "Diploma", "years": [] },
+            { "name": "Certificate in Social Work", "type": "program", "degreeType": "Certificate", "years": [] }
+          ]
+        },
+        {
+          "name": "Sociology, Political Science, Gender Studies",
+          "type": "department",
+          "programs": [
+            { "name": "BA in Gender Studies", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "MA in Gender Studies", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "MA in Sociology", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "Certificate in Gender & Development", "type": "program", "degreeType": "Certificate", "years": [] }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "College of Business and Management Sciences",
+      "type": "college",
+      "departments": [
+        {
+          "name": "Accounting and Finance",
+          "type": "department",
+          "programs": [
+            { "name": "BSc in Accounting", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "Bachelor of Commerce", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "Certificate in Accounting", "type": "program", "degreeType": "Certificate", "years": [] }
+          ]
+        },
+        {
+          "name": "Human Resource Management",
+          "type": "department",
+          "programs": [
+            { "name": "Certificate in Human Resource Management", "type": "program", "degreeType": "Certificate", "years": [] }
+          ]
+        },
+        {
+          "name": "Public Administration",
+          "type": "department",
+          "programs": [
+            { "name": "MPA", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "Diploma in Public Administration", "type": "program", "degreeType": "Diploma", "years": [] }
+          ]
+        },
+        {
+          "name": "Economics",
+          "type": "department",
+          "programs": [
+            { "name": "BSc in Economics", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "MSc in Economics", "type": "program", "degreeType": "Degree", "years": [] }
+          ]
+        },
+        {
+          "name": "Procurement and Marketing",
+          "type": "department",
+          "programs": [
+            {
+              "name": "BBA (General)", "type": "program", "degreeType": "Degree",
+              "years": [
+                {
+                  "name": "Year 1", "type": "year",
+                  "semesters": [
+                    {
+                      "name": "Semester 1", "type": "semester",
+                      "courses": [
+                        {
+                          "name": "BBA1101: Principles of Management", "code": "BBA1101", "type": "course", "description": "Fundamental concepts and theories of management.",
+                          "materialTypes": [
+                            { "name": "Study Notes", "type": "materialType", "materials": [{ "id": "sn_bba1101_01", "title": "Management Principles.pdf", "fileType": "pdf", "url": "#", "size": "2.2MB", "uploadDate": "2024-08-15" }] },
+                            { "name": "Past Papers", "type": "materialType", "materials": [] }
+                          ]
+                        },
+                        {
+                          "name": "ACC1102: Introduction to Financial Accounting", "code": "ACC1102", "type": "course", "description": "Basic principles of financial accounting and reporting.",
+                          "materialTypes": [
+                            { "name": "Study Notes", "type": "materialType", "materials": [{ "id": "sn_acc1102_01", "title": "Financial Accounting Basics.pdf", "fileType": "pdf", "url": "#", "size": "2.5MB", "uploadDate": "2024-08-18" }] }
+                          ]
+                        }
+                      ]
+                    },
+                    { "name": "Semester 2", "type": "semester", "courses": [] }
+                  ]
+                },
+                { "name": "Year 2", "type": "year", "semesters": [] },
+                { "name": "Year 3", "type": "year", "semesters": [] }
+              ]
+            },
+            { "name": "BBA (Finance)", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "BBA (Marketing)", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "BSc in Procurement", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "MBA", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "PhD in Business/Management Sciences", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "Diploma in Business Administration", "type": "program", "degreeType": "Diploma", "years": [] },
+            { "name": "Diploma in Procurement & Logistics", "type": "program", "degreeType": "Diploma", "years": [] },
+            { "name": "Diploma in Entrepreneurship", "type": "program", "degreeType": "Diploma", "years": [] },
+            { "name": "Certificate in Business Management", "type": "program", "degreeType": "Certificate", "years": [] }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "College of Computing and Information Sciences",
+      "type": "college",
+      "departments": [
+        {
+          "name": "Computer Science",
+          "type": "department",
+          "programs": [
+            {
+              "name": "BSc in Computer Science", "type": "program", "degreeType": "Degree",
+              "years": [
+                {
+                  "name": "Year 1", "type": "year",
+                  "semesters": [
+                    {
+                      "name": "Semester 1", "type": "semester",
+                      "courses": [
+                        {
+                          "name": "CSC1101: Introduction to Programming", "code": "CSC1101", "type": "course", "description": "Fundamentals of programming using Python.",
+                          "materialTypes": [
+                            { "name": "Study Notes", "type": "materialType", "materials": [{ "id": "sn_csc1101_01", "title": "Python Programming Basics.pdf", "fileType": "pdf", "url": "#", "size": "3.1MB", "uploadDate": "2024-08-10" }] },
+                            { "name": "Assignments", "type": "materialType", "materials": [{ "id": "as_csc1101_01", "title": "Lab 1 - Python Exercises.zip", "fileType": "zip", "url": "#", "size": "50KB", "uploadDate": "2024-08-20" }] }
+                          ]
+                        },
+                        {
+                          "name": "MAT1102: Discrete Mathematics", "code": "MAT1102", "type": "course", "description": "Mathematical foundations for computer science.",
+                          "materialTypes": [
+                            { "name": "Study Notes", "type": "materialType", "materials": [{ "id": "sn_mat1102_01", "title": "Discrete Math Notes.pdf", "fileType": "pdf", "url": "#", "size": "2.8MB", "uploadDate": "2024-08-12" }] }
+                          ]
+                        }
+                      ]
+                    },
+                    { "name": "Semester 2", "type": "semester", "courses": [] }
+                  ]
+                },
+                { "name": "Year 2", "type": "year", "semesters": [] },
+                { "name": "Year 3", "type": "year", "semesters": [] },
+                { "name": "Year 4", "type": "year", "semesters": [] }
+              ]
+            },
+            { "name": "MSc in Computer Science/IT", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "PhD in Computing/ICT", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "Diploma in Computer Science", "type": "program", "degreeType": "Diploma", "years": [] }
+          ]
+        },
+        {
+          "name": "Information Technology",
+          "type": "department",
+          "programs": [
+            { "name": "BSc in IT", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "BSc in IS", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "Diploma in IT", "type": "program", "degreeType": "Diploma", "years": [] },
+            { "name": "Certificate in Information Technology", "type": "program", "degreeType": "Certificate", "years": [] },
+            { "name": "Certificate in Digital Skills", "type": "program", "degreeType": "Certificate", "years": [] }
+          ]
+        },
+        {
+          "name": "Software Engineering",
+          "type": "department",
+          "programs": [
+            { "name": "BSc in Software Engineering", "type": "program", "degreeType": "Degree", "years": [] }
+          ]
+        },
+        {
+          "name": "Library and Information Science",
+          "type": "department",
+          "programs": [
+            { "name": "Bachelors in Library & Information Science", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "Diploma in Library & Information Science", "type": "program", "degreeType": "Diploma", "years": [] },
+            { "name": "Certificate in Records Management", "type": "program", "degreeType": "Certificate", "years": [] }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "College of Engineering, Design, Art and Technology",
+      "type": "college",
+      "departments": [
+        {
+          "name": "Civil, Mechanical, Electrical Engineering",
+          "type": "department",
+          "programs": [
+            { "name": "BSc in Electrical Engineering", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "BSc in Civil Engineering", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "BSc in Mechanical Engineering", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "BSc in Telecommunications Engineering", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "MSc in Engineering Specialties", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "PhD in Engineering/Technology", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "Diploma in Civil Engineering", "type": "program", "degreeType": "Diploma", "years": [] },
+            { "name": "Diploma in Mechanical Engineering", "type": "program", "degreeType": "Diploma", "years": [] },
+            { "name": "Diploma in Electrical Engineering", "type": "program", "degreeType": "Diploma", "years": [] },
+            { "name": "Certificate in Electrical Installation", "type": "program", "degreeType": "Certificate", "years": [] }
+          ]
+        },
+        {
+          "name": "Architecture, Surveying, Geomatics",
+          "type": "department",
+          "programs": [
+            { "name": "BSc in Architecture", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "BSc in Surveying & Geomatics", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "Diploma in Architecture Technology", "type": "program", "degreeType": "Diploma", "years": [] },
+            { "name": "Certificate in Draftsmanship", "type": "program", "degreeType": "Certificate", "years": [] },
+            { "name": "Certificate in Computer-Aided Design (CAD)", "type": "program", "degreeType": "Certificate", "years": [] }
+          ]
+        },
+        {
+          "name": "Industrial Art & Design",
+          "type": "department",
+          "programs": [
+            { "name": "BA in Industrial Art and Design", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "Diploma in Industrial Art", "type": "program", "degreeType": "Diploma", "years": [] }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "College of Health Sciences",
+      "type": "college",
+      "departments": [
+        {
+          "name": "Medicine, Nursing, Pharmacy",
+          "type": "department",
+          "programs": [
+            {
+              "name": "Bachelor of Medicine and Surgery (MBChB)", "type": "program", "degreeType": "Degree",
+              "years": [
+                {
+                  "name": "Year 1", "type": "year",
+                  "semesters": [
+                    {
+                      "name": "Semester 1", "type": "semester",
+                      "courses": [
+                        {
+                          "name": "ANA1101: Human Anatomy I", "code": "ANA1101", "type": "course", "description": "Gross anatomy of the musculoskeletal system and an introduction to histology.",
+                          "materialTypes": [
+                            { "name": "Study Notes", "type": "materialType", "materials": [{ "id": "sn_ana1101_01", "title": "Anatomy - Upper Limb.pdf", "fileType": "pdf", "url": "#", "size": "4.5MB", "uploadDate": "2024-08-05" }] },
+                            { "name": "Slides", "type": "materialType", "materials": [{ "id": "sl_ana1101_01", "title": "Histology Basics.pptx", "fileType": "pptx", "url": "#", "size": "5.0MB", "uploadDate": "2024-08-10" }] }
+                          ]
+                        },
+                        {
+                          "name": "PHY1102: Medical Physiology I", "code": "PHY1102", "type": "course", "description": "Cellular physiology, nerve and muscle function, and autonomic nervous system.",
+                          "materialTypes": [
+                            { "name": "Study Notes", "type": "materialType", "materials": [{ "id": "sn_phy1102_01", "title": "Cell Physiology Notes.pdf", "fileType": "pdf", "url": "#", "size": "3.0MB", "uploadDate": "2024-08-08" }] }
+                          ]
+                        },
+                        {
+                          "name": "BCH1103: Medical Biochemistry I", "code": "BCH1103", "type": "course", "description": "Chemistry of carbohydrates, lipids, proteins, and nucleic acids; enzymes.",
+                          "materialTypes": [
+                            { "name": "Study Notes", "type": "materialType", "materials": [{ "id": "sn_bch1103_01", "title": "Biochemistry - Macromolecules.pdf", "fileType": "pdf", "url": "#", "size": "3.2MB", "uploadDate": "2024-08-12" }] }
+                          ]
+                        }
+                      ]
+                    },
+                    { "name": "Semester 2", "type": "semester", "courses": [] }
+                  ]
+                },
+                { "name": "Year 2", "type": "year", "semesters": [] },
+                { "name": "Year 3", "type": "year", "semesters": [] },
+                { "name": "Year 4", "type": "year", "semesters": [] },
+                { "name": "Year 5", "type": "year", "semesters": [] }
+              ]
+            },
+            { "name": "Bachelor of Pharmacy", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "BSc in Nursing", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "Master of Medicine (MMed)", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "MSc in Nursing", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "PhD in Medical Sciences", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "Diploma in Nursing (Comprehensive)", "type": "program", "degreeType": "Diploma", "years": [] },
+            { "name": "Diploma in Nursing (Psychiatric)", "type": "program", "degreeType": "Diploma", "years": [] },
+            { "name": "Diploma in Nursing (Midwifery)", "type": "program", "degreeType": "Diploma", "years": [] },
+            { "name": "Diploma in Pharmacy", "type": "program", "degreeType": "Diploma", "years": [] },
+            { "name": "Certificate in Nursing", "type": "program", "degreeType": "Certificate", "years": [] }
+          ]
+        },
+        {
+          "name": "Public Health, Dentistry, Anatomy, Physiology, Biochemistry",
+          "type": "department",
+          "programs": [
+            { "name": "BSc in Public Health", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "BDS (Dentistry)", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "MPH", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "Diploma in Public Health", "type": "program", "degreeType": "Diploma", "years": [] },
+            { "name": "Certificate in Community Health", "type": "program", "degreeType": "Certificate", "years": [] }
+          ]
+        },
+        {
+          "name": "Medical Laboratory Sciences",
+          "type": "department",
+          "programs": [
+            { "name": "BSc in Lab Technology", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "MSc in Lab Sciences", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "Diploma in Clinical Medicine & Community Health", "type": "program", "degreeType": "Diploma", "years": [] },
+            { "name": "Diploma in Medical Lab Technology", "type": "program", "degreeType": "Diploma", "years": [] },
+            { "name": "Certificate in Medical Lab Techniques", "type": "program", "degreeType": "Certificate", "years": [] }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "College of Agricultural and Environmental Sciences",
+      "type": "college",
+      "departments": [
+        {
+          "name": "Agriculture Production",
+          "type": "department",
+          "programs": [
+            { "name": "BSc in Agriculture", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "Diploma in Crop Production", "type": "program", "degreeType": "Diploma", "years": [] },
+            { "name": "Certificate in Agriculture", "type": "program", "degreeType": "Certificate", "years": [] },
+            { "name": "Certificate in Horticulture", "type": "program", "degreeType": "Certificate", "years": [] }
+          ]
+        },
+        {
+          "name": "Agribusiness & Natural Resource Economics",
+          "type": "department",
+          "programs": [
+            { "name": "BSc in Agribusiness", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "MSc in Agricultural Economics", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "PhD in Agricultural & Environmental Sciences", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "Diploma in Agribusiness", "type": "program", "degreeType": "Diploma", "years": [] }
+          ]
+        },
+        {
+          "name": "Environmental Management",
+          "type": "department",
+          "programs": [
+            { "name": "BSc in Environmental Science", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "MSc in Environmental Management", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "Diploma in Environmental Science", "type": "program", "degreeType": "Diploma", "years": [] },
+            { "name": "Certificate in Soil and Water Conservation", "type": "program", "degreeType": "Certificate", "years": [] }
+          ]
+        },
+        {
+          "name": "Food Technology and Nutrition",
+          "type": "department",
+          "programs": [
+            { "name": "BSc in Food Science", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "MSc in Nutrition", "type": "program", "degreeType": "Degree", "years": [] }
+          ]
+        },
+        {
+          "name": "Forestry & Biodiversity",
+          "type": "department",
+          "programs": [
+            { "name": "Diploma in Agroforestry", "type": "program", "degreeType": "Diploma", "years": [] }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "College of Natural Sciences",
+      "type": "college",
+      "departments": [
+        {
+          "name": "Mathematics, Physics, Chemistry, Biology, Geology",
+          "type": "department",
+          "programs": [
+            { "name": "BSc in Mathematics", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "BSc in Physics", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "BSc in Chemistry", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "BSc in Biology", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "MSc in Pure and Applied Sciences", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "PhD in Natural Sciences", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "Diploma in Applied Sciences", "type": "program", "degreeType": "Diploma", "years": [] },
+            { "name": "Diploma in Laboratory Technology", "type": "program", "degreeType": "Diploma", "years": [] },
+            { "name": "Certificate in Laboratory Methods", "type": "program", "degreeType": "Certificate", "years": [] },
+            { "name": "Certificate in Industrial Chemistry", "type": "program", "degreeType": "Certificate", "years": [] }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "College of Veterinary Medicine, Animal Resources & Biosecurity",
+      "type": "college",
+      "departments": [
+        {
+          "name": "Veterinary Clinical Studies",
+          "type": "department",
+          "programs": [
+            { "name": "Bachelor of Veterinary Medicine (BVM)", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "PhD in Veterinary and Animal Sciences", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "Certificate in Veterinary Assistance", "type": "program", "degreeType": "Certificate", "years": [] }
+          ]
+        },
+        {
+          "name": "Animal Production",
+          "type": "department",
+          "programs": [
+            { "name": "BSc in Animal Production", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "MSc in Animal Science", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "Diploma in Animal Health", "type": "program", "degreeType": "Diploma", "years": [] },
+            { "name": "Diploma in Meat and Dairy Technology", "type": "program", "degreeType": "Diploma", "years": [] },
+            { "name": "Certificate in Animal Husbandry", "type": "program", "degreeType": "Certificate", "years": [] }
+          ]
+        },
+        {
+          "name": "Wildlife & Animal Health",
+          "type": "department",
+          "programs": [
+            { "name": "BSc in Wildlife Health", "type": "program", "degreeType": "Degree", "years": [] }
+          ]
+        },
+        {
+          "name": "Biosecurity and Public Health",
+          "type": "department",
+          "programs": [
+            { "name": "MSc in Public Health", "type": "program", "degreeType": "Degree", "years": [] }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "School of Law",
+      "type": "college",
+      "departments": [
+        {
+          "name": "Commercial Law",
+          "type": "department",
+          "programs": []
+        },
+        {
+          "name": "Criminal Law",
+          "type": "department",
+          "programs": []
+        },
+        {
+          "name": "Public & International Law",
+          "type": "department",
+          "programs": []
+        },
+        {
+          "name": "Jurisprudence",
+          "type": "department",
+          "programs": [
+            { "name": "Bachelor of Laws (LLB)", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "Master of Laws (LLM)", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "PhD in Law", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "Postgraduate Diploma in Legal Practice (Bar Course)", "type": "program", "degreeType": "Diploma", "years": [] },
+            { "name": "Certificate in Law (Intro to Legal Studies)", "type": "program", "degreeType": "Certificate", "years": [] }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "School of Fine and Performing Arts",
+      "type": "college",
+      "departments": [
+        {
+          "name": "Music, Dance, Drama",
+          "type": "department",
+          "programs": [
+            { "name": "BA in Music", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "BA in Drama", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "BA in Dance", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "Master of Fine Arts (MFA)", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "PhD in Arts & Culture", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "Diploma in Performing Arts", "type": "program", "degreeType": "Diploma", "years": [] },
+            { "name": "Diploma in Music and Sound Production", "type": "program", "degreeType": "Diploma", "years": [] },
+            { "name": "Certificate in Dance or Drama", "type": "program", "degreeType": "Certificate", "years": [] }
+          ]
+        },
+        {
+          "name": "Film & Multimedia",
+          "type": "department",
+          "programs": [
+            { "name": "BA in Film", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "Certificate in Film Editing", "type": "program", "degreeType": "Certificate", "years": [] }
+          ]
+        },
+        {
+          "name": "Industrial Design",
+          "type": "department",
+          "programs": []
+        }
+      ]
+    },
+    {
+      "name": "School of Gender and Women Studies",
+      "type": "college",
+      "departments": [
+        {
+          "name": "Gender & Development Studies",
+          "type": "department",
+          "programs": [
+            { "name": "BA in Gender Studies", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "MA in Gender and Development", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "PhD in Gender Studies", "type": "program", "degreeType": "Degree", "years": [] },
+            { "name": "Diploma in Gender Studies", "type": "program", "degreeType": "Diploma", "years": [] }
+          ]
+        },
+        {
+          "name": "Women’s Rights & Policy",
+          "type": "department",
+          "programs": [
+            { "name": "Certificate in Women Empowerment", "type": "program", "degreeType": "Certificate", "years": [] }
+          ]
+        }
+      ]
+    }
+  ]
+}

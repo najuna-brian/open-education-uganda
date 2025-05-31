@@ -1,0 +1,43 @@
+body, #root, .app-container {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex; /* For #root or .app-container if it's the direct child of body */
+  flex-direction: column; /* if App.js's div is inside another div */
+}
+
+.app-container {
+  display: flex;
+  flex-direction: row; /* Sidebar and main content side-by-side */
+  height: 100%;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.p-4 {
+  padding: 1rem; /* 16px */
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.text-2xl {
+  font-size: 1.5rem; /* 24px */
+}
+.font-bold {
+  font-weight: bold;
+}
+.mb-4 {
+  margin-bottom: 1rem; /* 16px */
+}
+.text-xl {
+  font-size: 1.25rem; /* 20px */
+}
+
+/* You might also want some basic body styles */
+body {
+  font-family: sans-serif;
+}

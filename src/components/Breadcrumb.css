@@ -1,0 +1,49 @@
+/* src/components/Breadcrumb.css */
+.breadcrumb-container {
+  margin-bottom: 1.5rem; /* More space below breadcrumb */
+}
+
+.breadcrumb-list {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping on small screens */
+  padding: 0.85rem 1.2rem; /* Slightly more padding */
+  list-style: none;
+  background-color: #f1f3f5; /* Lighter background */
+  border-radius: 0.3rem; /* More rounded */
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
+.breadcrumb-item {
+  display: flex;
+  align-items: center;
+  font-size: 0.95em; /* Slightly larger font */
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: "/"; /* Changed separator */
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+  color: #868e96; /* Softer separator color */
+}
+
+.breadcrumb-link {
+  background: none;
+  border: none;
+  color: #007bff;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 0.2rem 0.1rem; /* Small padding for better click area */
+  font-size: inherit;
+  transition: color 0.2s ease;
+}
+
+.breadcrumb-link:hover {
+  text-decoration: underline;
+  color: #0056b3; /* Darker on hover */
+}
+
+.breadcrumb-current { /* Style for the last item if it's not a link */
+  color: #343a40; /* Darker color for current page */
+  font-weight: 500; /* Slightly bolder */
+  padding: 0.2rem 0.1rem;
+}

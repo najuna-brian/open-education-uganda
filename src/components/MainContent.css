@@ -1,0 +1,114 @@
+/* src/components/MainContent.css */
+.main-content-area {
+  padding: 1.5rem; /* More padding */
+}
+
+.content-title {
+  font-size: 2em; /* Larger title */
+  color: #343a40;
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #007bff; /* Accent border */
+  display: inline-block; /* To make border fit content */
+}
+
+.content-description {
+  font-size: 1.1em;
+  color: #555;
+  margin-bottom: 1.5rem;
+  max-width: 80ch; /* Improve readability */
+}
+
+.section-subtitle {
+  font-size: 1.5em;
+  color: #495057;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* Responsive grid */
+  gap: 1.5rem; /* More gap */
+  margin-top: 1rem;
+}
+
+.content-card {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px; /* More rounded */
+  padding: 1.5rem; /* More padding */
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.content-card:hover {
+  transform: translateY(-5px); /* Lift effect */
+  box-shadow: 0 8px 15px rgba(0,0,0,0.1); /* Stronger shadow on hover */
+}
+
+.card-title {
+  font-size: 1.25em;
+  color: #0056b3; /* Link-like color */
+  margin-bottom: 0.5rem;
+}
+
+.card-description {
+  font-size: 0.9em;
+  color: #6c757d;
+  margin-bottom: 0.75rem;
+  display: -webkit-box; /* For ellipsis */
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  min-height: 3.2em; /* Reserve space for approx 3 lines */
+}
+
+
+.card-type-indicator {
+  display: inline-block;
+  font-size: 0.75em;
+  color: #fff;
+  background-color: #6c757d; /* Neutral badge color */
+  padding: 0.2em 0.6em;
+  border-radius: 10px;
+  text-transform: capitalize;
+}
+
+
+/* Styles for Material Types and Materials List */
+.material-types-section {
+  margin-top: 1.5rem;
+}
+
+.material-type-block {
+  background-color: #f9f9f9;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.material-type-title {
+  font-size: 1.2em;
+  color: #333;
+  margin-bottom: 0.75rem;
+  cursor: pointer; /* If you plan to make them expandable */
+}
+.material-type-title:hover {
+  color: #0056b3;
+}
+
+.materials-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.no-materials-text, .no-content-text {
+  font-style: italic;
+  color: #777;
+  margin-top: 0.5rem;
+}

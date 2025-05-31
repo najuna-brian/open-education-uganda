@@ -1,0 +1,79 @@
+/* src/components/Sidebar.css */
+.sidebar {
+  width: 320px; /* Increased width */
+  min-width: 280px; /* Minimum width */
+  background-color: #f8f9fa; /* Lighter background */
+  padding: 20px; /* Increased padding */
+  height: 100vh; 
+  overflow-y: auto;
+  border-right: 1px solid #dee2e6; /* Softer border */
+  transition: width 0.3s ease; /* Smooth transition for potential collapse */
+}
+
+.sidebar-main-title {
+  font-size: 1.6em; /* Larger title */
+  margin-bottom: 20px;
+  color: #343a40; /* Darker text */
+  font-weight: 600; /* Bolder */
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.sidebar-item-container {
+  margin-bottom: 3px;
+}
+
+.sidebar-item {
+  padding: 10px 12px; /* More padding */
+  cursor: pointer;
+  border-radius: 5px; /* More rounded corners */
+  font-size: 0.98em; /* Slightly larger font */
+  color: #495057; /* Standard text color */
+  display: flex;
+  align-items: center;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  word-break: break-word; /* Prevent overflow */
+}
+
+.sidebar-item:hover, .sidebar-item:focus {
+  background-color: #e9ecef; /* Hover effect */
+  color: #0056b3; /* Highlight color on hover */
+  outline: none; /* Remove focus outline if custom styling is preferred */
+}
+
+.sidebar-item.level-0 {
+  font-weight: 600; /* Bolder for top-level items */
+  font-size: 1.05em;
+}
+.sidebar-item.level-1 {
+  font-weight: 500;
+}
+/* Add more level-specific styles if needed */
+
+.sidebar-item.expanded {
+  font-weight: bold; /* Optional: make parent of expanded bold */
+  background-color: #e0e0e0; /* Optional: different bg for expanded parent */
+}
+
+.toggle-icon {
+  margin-right: 10px; /* More space for icon */
+  font-size: 0.85em;
+  color: #6c757d; /* Icon color */
+  transition: transform 0.2s ease;
+}
+
+.sidebar-item.expanded .toggle-icon {
+   transform: rotate(90deg); /* Optional: rotate icon on expand */
+}
+
+
+.item-name {
+  flex-grow: 1;
+}
+
+.sidebar-item-children {
+  margin-top: 3px;
+  border-left: 1px dashed #ced4da; /* Visual cue for nesting */
+  padding-left: 10px; /* Indent children slightly more */
+  margin-left: 10px; /* Align with parent's text, not icon */
+}

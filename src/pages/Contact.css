@@ -1,0 +1,17 @@
+.contact-page {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex: 1;
+}
+
+.contact-page h1 {
+  color: #001f3f;
+  margin-bottom: 1rem;
+}
+
+.contact-page p {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}

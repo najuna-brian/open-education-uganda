@@ -1,0 +1,54 @@
+.material-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 0.5rem;
+  border-bottom: 1px solid #f0f0f0;
+  transition: background-color 0.2s ease;
+}
+
+.material-item:last-child {
+  border-bottom: none;
+}
+
+.material-item:hover {
+  background-color: #f8f9fa;
+}
+
+.material-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #0056b3;
+  flex-grow: 1;
+}
+
+.material-link:hover .material-title {
+  text-decoration: underline;
+}
+
+.material-icon {
+  margin-right: 0.8rem;
+  font-size: 1.3em;
+  color: #495057;
+}
+
+.material-title {
+  font-size: 0.95em;
+  color: #343a40;
+  margin-right: 0.5rem;
+  word-break: break-word;
+}
+
+.material-size {
+  font-size: 0.8em;
+  color: #6c757d;
+  margin-right: 1rem;
+  white-space: nowrap;
+}
+
+.material-date {
+  font-size: 0.8em;
+  color: #868e96;
+  white-space: nowrap;
+}

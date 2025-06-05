@@ -23,7 +23,6 @@ const SidebarItem = ({ item, level = 0, onPathSelected, currentPathForSiblings =
     e.stopPropagation();
     const newPath = [...currentPathForSiblings, item];
     
-    // Make sure onPathSelected exists before calling it
     if (typeof onPathSelected === 'function') {
       onPathSelected(item, newPath);
     }
@@ -42,7 +41,7 @@ const SidebarItem = ({ item, level = 0, onPathSelected, currentPathForSiblings =
         tabIndex={0}
         onKeyPress={(e) => { if (e.key === 'Enter' || e.key === ' ') handleToggle(e); }}
         title={item.description || item.name} 
-  data-tooltip={item.description || item.name}
+        data-tooltip={item.description || item.name}
       >
         {hasChildren && (
           <span className="toggle-icon">{isExpanded ? '▼' : '►'}</span>
@@ -89,4 +88,4 @@ const Sidebar = ({ data, onPathSelected, currentPathForSiblings }) => {
   );
 };
 
-export default Sidebar;cfryujtyuj
+export default Sidebar;

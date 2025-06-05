@@ -56,6 +56,9 @@ const Navbar = () => {
           <Link to="/contact" className="nav-link" onClick={() => setIsMenuOpen(false)}>
             Contact
           </Link>
+          <Link to="/login" className="nav-link" onClick={() => setIsMenuOpen(false)}>
+  <i className="fas fa-sign-in-alt"></i> Login
+</Link>
         </div>
       </div>
     </nav>

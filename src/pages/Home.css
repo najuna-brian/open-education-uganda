@@ -1,16 +1,216 @@
 .home-page {
-  padding: 2rem;
-  max-width: 1200px;
-  margin: 0 auto;
-  flex: 1;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
-.home-page h1 {
+.hero-section {
+  background: linear-gradient(135deg, #001f3f 0%, #0074d9 100%);
+  color: white;
+  padding: 5rem 1rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+}
+
+.hero-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  animation: fadeInDown 1s ease-out;
+}
+
+.hero-text {
+  font-size: 1.3rem;
+  max-width: 700px;
+  margin: 0 auto 2rem;
+  animation: fadeIn 1.5s ease-out;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  animation: fadeInUp 1s ease-out;
+}
+
+.primary-button, .secondary-button {
+  padding: 0.8rem 1.8rem;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.primary-button {
+  background-color: white;
+  color: #001f3f;
+  border: 2px solid white;
+}
+
+.primary-button:hover {
+  background-color: transparent;
+  color: white;
+}
+
+.secondary-button {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+}
+
+.secondary-button:hover {
+  background-color: white;
+  color: #001f3f;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 3rem;
+  color: #001f3f;
+  font-size: 2rem;
+  position: relative;
+}
+
+.section-title::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 4px;
+  background-color: #0074d9;
+  margin: 0.5rem auto 0;
+}
+
+.features-section {
+  padding: 5rem 1rem;
+  background-color: #f9f9f9;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.feature-card {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.feature-icon {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.feature-card h3 {
   color: #001f3f;
   margin-bottom: 1rem;
 }
 
-.home-page p {
+.feature-card p {
+  color: #666;
+  line-height: 1.6;
+}
+
+.testimonials-section {
+  padding: 5rem 1rem;
+  background-color: #001f3f;
+  color: white;
+}
+
+.testimonials-section .section-title {
+  color: white;
+}
+
+.testimonials-section .section-title::after {
+  background-color: white;
+}
+
+.stats-section {
+  padding: 4rem 1rem;
+  background-color: #0074d9;
+  color: white;
+}
+
+.stats-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.stat-item h3 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.stat-item p {
   font-size: 1.2rem;
-  color: #333;
+  opacity: 0.9;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+  
+  .hero-text {
+    font-size: 1.1rem;
+  }
+  
+  .hero-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .section-title {
+    font-size: 1.8rem;
+  }
 }

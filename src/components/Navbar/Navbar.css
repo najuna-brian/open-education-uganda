@@ -40,6 +40,14 @@
   font-size: 1.5rem;
 }
 
+.navbar-logo-text {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 1.4rem;
+  letter-spacing: 0.5px;
+  color: var(--white);
+}
+
 .navbar-logo img {
   height: 40px;
   margin-right: 10px;

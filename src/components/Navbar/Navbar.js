@@ -26,8 +26,8 @@ const Navbar = () => {
       <div className="navbar-container">
         <div className="navbar-brand">
           <Link to="/" className="navbar-logo">
-            <img src="/assets/logo.png" alt="Open Education Uganda Logo" />
-            <span>Open Education Uganda</span>
+            <img src="/assets/logo.png" alt="Logo" />
+            <span className="navbar-logo-text">OPEN EDUCATION Uganda</span>
           </Link>
         </div>
 

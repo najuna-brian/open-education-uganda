@@ -41,7 +41,8 @@ const SidebarItem = ({ item, level = 0, onPathSelected, currentPathForSiblings =
         role="button"
         tabIndex={0}
         onKeyPress={(e) => { if (e.key === 'Enter' || e.key === ' ') handleToggle(e); }}
-        title={item.name}
+        title={item.description || item.name} 
+  data-tooltip={item.description || item.name}
       >
         {hasChildren && (
           <span className="toggle-icon">{isExpanded ? '▼' : '►'}</span>
@@ -88,4 +89,4 @@ const Sidebar = ({ data, onPathSelected, currentPathForSiblings }) => {
   );
 };
 
-export default Sidebar;
+export default Sidebar;cfryujtyuj

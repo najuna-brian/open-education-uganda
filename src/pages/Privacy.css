@@ -1,0 +1,210 @@
+.privacy-page {
+  max-width: 100%;
+  overflow-x: hidden;
+  color: #333;
+  line-height: 1.6;
+}
+
+.privacy-hero {
+  background: linear-gradient(135deg, #0074d9 0%, #001f3f 100%);
+  color: white;
+  padding: 5rem 1rem;
+  text-align: center;
+  animation: fadeIn 0.8s ease-out;
+}
+
+.hero-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.privacy-hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  animation: fadeInDown 1s ease-out;
+}
+
+.hero-text {
+  font-size: 1.3rem;
+  max-width: 700px;
+  margin: 0 auto;
+  opacity: 0.9;
+  animation: fadeIn 1.5s ease-out;
+}
+
+.privacy-intro {
+  padding: 3rem 1rem;
+  background-color: #f9f9f9;
+  animation: fadeInUp 1s ease-out;
+}
+
+.privacy-intro .container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.privacy-intro p {
+  margin-bottom: 1.5rem;
+}
+
+.privacy-sections {
+  padding: 3rem 1rem;
+}
+
+.privacy-sections .container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.privacy-section {
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.privacy-section.active {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  background-color: #0074d9;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.section-header:hover {
+  background-color: #005bb5;
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.privacy-icon {
+  font-size: 1.5rem;
+}
+
+.section-content {
+  padding: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  background-color: white;
+}
+
+.privacy-section.active .section-content {
+  padding: 2rem;
+  max-height: 2000px;
+}
+
+.section-content p, .section-content ul {
+  margin-bottom: 1rem;
+}
+
+.section-content ul {
+  padding-left: 1.5rem;
+}
+
+.section-content li {
+  margin-bottom: 0.5rem;
+}
+
+.toggle-icon {
+  font-size: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.privacy-section.active .toggle-icon {
+  transform: rotate(180deg);
+}
+
+.privacy-contact {
+  padding: 3rem 1rem;
+  background-color: #f0f0f0;
+  animation: fadeInUp 1s ease-out;
+}
+
+.privacy-contact .container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.privacy-contact h2 {
+  color: #001f3f;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.privacy-contact ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 2rem;
+}
+
+.privacy-contact li {
+  margin-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.privacy-contact li::before {
+  content: "•";
+  color: #0074d9;
+  font-weight: bold;
+  position: absolute;
+  left: 0;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@media (max-width: 768px) {
+  .privacy-hero h1 {
+    font-size: 2rem;
+  }
+  
+  .hero-text {
+    font-size: 1.1rem;
+  }
+  
+  .section-header {
+    padding: 1rem;
+  }
+  
+  .privacy-section.active .section-content {
+    padding: 1.5rem;
+  }
+}

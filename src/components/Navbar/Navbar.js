@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import './Navbar.css';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
+  const location = useLocation();
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -12,8 +13,12 @@ const Navbar = () => {
 
   const handleSearch = (e) => {
     e.preventDefault();
-    // Search functionality to be implemented
     console.log('Searching for:', searchQuery);
+  };
+
+  // Function to check if a link is active
+  const isActive = (path) => {
+    return location.pathname === path;
   };
 
   return (
@@ -21,8 +26,8 @@ const Navbar = () => {
       <div className="navbar-container">
         <div className="navbar-brand">
           <Link to="/" className="navbar-logo">
-            <img src="/assets/logo.png" alt="Open Education Uganda Logo" />
-            <span>Open Education Uganda</span>
+            <img src="/assets/logo.png" alt="Logo" />
+            <span className="navbar-logo-text">OPEN EDUCATION Uganda</span>
           </Link>
         </div>
 
@@ -47,18 +52,34 @@ const Navbar = () => {
         </div>
 
         <div className={`navbar-links ${isMenuOpen ? 'active' : ''}`}>
-          <Link to="/" className="nav-link" onClick={() => setIsMenuOpen(false)}>
+          <Link 
+            to="/" 
+            className={`nav-link ${isActive('/') ? 'active' : ''}`} 
+            onClick={() => setIsMenuOpen(false)}
+          >
             Home
           </Link>
-          <Link to="/about" className="nav-link" onClick={() => setIsMenuOpen(false)}>
+          <Link 
+            to="/about" 
+            className={`nav-link ${isActive('/about') ? 'active' : ''}`} 
+            onClick={() => setIsMenuOpen(false)}
+          >
             About
           </Link>
-          <Link to="/contact" className="nav-link" onClick={() => setIsMenuOpen(false)}>
+          <Link 
+            to="/contact" 
+            className={`nav-link ${isActive('/contact') ? 'active' : ''}`} 
+            onClick={() => setIsMenuOpen(false)}
+          >
             Contact
           </Link>
-          <Link to="/login" className="nav-link" onClick={() => setIsMenuOpen(false)}>
-  <i className="fas fa-sign-in-alt"></i> Login
-</Link>
+          <Link 
+            to="/login" 
+            className={`nav-link ${isActive('/login') ? 'active' : ''}`} 
+            onClick={() => setIsMenuOpen(false)}
+          >
+            <i className="fas fa-sign-in-alt"></i> Login
+          </Link>
         </div>
       </div>
     </nav>

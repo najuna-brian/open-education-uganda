@@ -1,9 +1,9 @@
 .footer {
-  background-color: #001f3f;
   color: #ffffff;
   padding: 3rem 0 0;
   margin-top: 3rem;
   font-size: 0.9rem;
+
 }
 
 .footer-container {
@@ -145,3 +145,13 @@
     margin-top: 0.5rem;
   }
 }
+
+@keyframes footerBgScroll {
+  0% {
+    background-position: center top;
+  }
+  100% {
+    background-position: center bottom;
+  }
+}
+

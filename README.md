@@ -1,5 +1,7 @@
 # Open Education Uganda
 
+![Project Logo](public/Assets/logo.png)
+
 Open Education Uganda is a modern, responsive frontend web platform designed to deliver accessible, high-quality educational resources to learners across Uganda. Built with React and modern web technologies, it offers a scalable foundation for digital learning initiatives.
 
 ---

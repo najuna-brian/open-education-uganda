@@ -1,27 +1,43 @@
 .about-page {
   max-width: 100%;
   overflow-x: hidden;
+  width: 1200px;
+  margin-left: 40px;
 }
 
 .about-hero {
-  background: linear-gradient(135deg, #0074d9 0%, #001f3f 100%);
+  background: linear-gradient(rgba(51, 67, 84, 0.8), rgba(0, 31, 63, 0.8)), url('../../public/Assets/Image44.jpg') center/cover no-repeat;
+  background-size: 110%;
+  animation: moveBackground 10s infinite alternate ease-in-out;
   color: white;
   padding: 5rem 1rem;
   text-align: center;
+  width: 1000px;
+  max-width: 90%;
+  padding: 5rem 1rem;
+  text-align: center;
+  margin: 2rem auto;
+  border: 3px solid white;
+  border-radius: 20px;
+  color: white;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
 }
 
 .hero-content {
-  max-width: 1200px;
   margin: 0 auto;
+  height: 150px;
+  position: center;
 }
 
 .about-hero h1 {
+  color: #b5b5b5;
   font-size: 2.5rem;
   margin-bottom: 1rem;
   animation: fadeInDown 1s ease-out;
 }
 
 .hero-text {
+  color: rgb(255, 255, 255);
   font-size: 1.3rem;
   max-width: 700px;
   margin: 0 auto;
@@ -43,7 +59,7 @@
 }
 
 .mission-content h2 {
-  color: #001f3f;
+  color: white;
   margin-bottom: 1.5rem;
   font-size: 2rem;
 }
@@ -51,7 +67,7 @@
 .mission-content p {
   margin-bottom: 1.5rem;
   line-height: 1.6;
-  color: #333;
+  color: rgb(199, 199, 199);
 }
 
 .mission-image {
@@ -83,6 +99,13 @@
   color: #001f3f;
   margin-bottom: 3rem;
   font-size: 2rem;
+}
+
+.team-section h3 {
+  text-align: center;
+  color: #001f3f;
+  margin-bottom: 3rem;
+  font-size: 1rem;
 }
 
 .team-grid {
@@ -145,5 +168,14 @@
   
   .mission-content h2, .team-section h2 {
     font-size: 1.8rem;
+  }
+}
+
+@keyframes footerBgScroll {
+  0% {
+    background-position: center top;
+  }
+  100% {
+    background-position: center bottom;
   }
 }

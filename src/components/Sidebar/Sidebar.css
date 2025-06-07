@@ -28,7 +28,7 @@
   cursor: pointer;
   border-radius: 5px; /* More rounded corners */
   font-size: 0.98em; /* Slightly larger font */
-  color: #495057; /* Standard text color */
+  color: #ffffff; /* Standard text color */
   display: flex;
   align-items: center;
   transition: background-color 0.2s ease, color 0.2s ease;
@@ -36,7 +36,7 @@
 }
 
 .sidebar-item:hover, .sidebar-item:focus {
-  background-color: #e9ecef; /* Hover effect */
+  background-color: #bcbcbc; /* Hover effect */
   color: #0056b3; /* Highlight color on hover */
   outline: none; /* Remove focus outline if custom styling is preferred */
 }
@@ -58,7 +58,7 @@
 .toggle-icon {
   margin-right: 10px; /* More space for icon */
   font-size: 0.85em;
-  color: #6c757d; /* Icon color */
+  color: #ffffff; /* Icon color */
   transition: transform 0.2s ease;
 }
 

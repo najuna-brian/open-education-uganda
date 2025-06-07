@@ -5,7 +5,12 @@ import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram, FaMapMarkerAlt, FaPhone
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer
+      className="footer"
+      style={{
+        background: `linear-gradient(rgba(0, 31, 63, 0.8), rgba(0, 31, 63, 0.8)), url("/Assets/Image14.jpg") center/cover no-repeat`
+      }}
+    >
       <div className="footer-container">
         <div className="footer-section">
           <h3>About Us</h3>
@@ -33,10 +38,12 @@ const Footer = () => {
         <div className="footer-section">
           <h3>Contact Info</h3>
           <ul className="contact-info">
-            <li><FaMapMarkerAlt /> 123 Education Road, Kampala, Uganda</li>
-            <li><FaPhone /> +256 123 456 789</li>
-            <li><FaEnvelope /> info@openeducationuganda.org</li>
-            <li><FaClock /> Mon-Fri: 8:00 AM - 5:00 PM</li>
+            <li><FaMapMarkerAlt /> Muganzi Awongererwa Rd, Kampala, Uganda</li>
+            <li><FaPhone /> +256 774 948 086</li>
+            <li><FaPhone /> +256 200 981 445</li>
+            <li><FaPhone /> +256 394 827 687</li>
+            <li><FaEnvelope /> openeducationuganda@gmail.com</li>
+            <li><FaClock /> Website is Open 24/7</li>
           </ul>
         </div>
 

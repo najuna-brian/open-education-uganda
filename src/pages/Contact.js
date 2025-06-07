@@ -32,7 +32,11 @@ const Contact = () => {
   };
 
   return (
-    <div className="contact-page">
+    <div className="contact-page"
+    style={{
+        background: `linear-gradient(rgba(0, 31, 63, 0.89), rgba(0, 31, 63, 0.91)), url("/Assets/Image28.jpg") center/cover no-repeat`
+      }}
+    >
       <section className="contact-hero">
         <div className="hero-content">
           <h1>Contact Us</h1>
@@ -48,33 +52,39 @@ const Contact = () => {
               <FaMapMarkerAlt className="info-icon" />
               <div>
                 <h3>Address</h3>
-                <p>123 Education Road, Kampala, Uganda</p>
+                <p>Muganzi Awongererwa Rd, Kampala</p>
               </div>
             </div>
             <div className="info-item">
               <FaPhone className="info-icon" />
               <div>
                 <h3>Phone</h3>
-                <p>+256 123 456 789</p>
+                <p>+256 774 948 086</p>
+                <p>+256 200 981 445</p>
+                <p>+256 394 827 687</p>
               </div>
             </div>
             <div className="info-item">
               <FaEnvelope className="info-icon" />
               <div>
                 <h3>Email</h3>
-                <p>info@openeducationuganda.org</p>
+                <p>openeducationuganda@gmail.com</p>
               </div>
             </div>
             <div className="info-item">
               <FaClock className="info-icon" />
               <div>
                 <h3>Working Hours</h3>
-                <p>Monday - Friday: 8:00 AM - 5:00 PM</p>
+                <p>Website is Open 24/7</p>
               </div>
             </div>
           </div>
 
-          <div className="contact-form-container">
+          <div className="contact-form-container"
+          style={{
+        background: `linear-gradient(rgba(0, 31, 63, 0.89), rgba(0, 31, 63, 0.91)), url("/Assets/Image44.jpg") center/cover no-repeat`
+      }}
+          >
             <h2>Send Us a Message</h2>
             <form onSubmit={handleSubmit} className="contact-form">
               <div className="form-group">
@@ -127,15 +137,24 @@ const Contact = () => {
         </div>
       </section>
 
-      <section className="map-section">
-        <div className="map-container">
-          <h2>Our Location</h2>
-          <div className="map-placeholder">
-            {/* This would be a real map embed in production */}
-            <div className="map-mock">📍 Map would display here</div>
-          </div>
-        </div>
-      </section>
+      <section class="map-section" data-aos="fade-up">
+  <div class="container">
+    <div class="map-container animated-map">
+      <h2>Our Location</h2>
+      <div class="map-embed-wrapper">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.7536223157963!2d32.5710316!3d0.3384618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177dbb19d164ea2d%3A0x46bf437b2b38b7a9!2sNahati%20Anytime%20Laundry!5e0!3m2!1sen!2sug!4v1717654900000!5m2!1sen!2sug"
+          width="100%" 
+          height="450" 
+          style={{ border: 0 }}
+          allowfullscreen="" 
+          loading="lazy" 
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</section>
     </div>
   );
 };

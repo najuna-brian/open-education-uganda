@@ -71,7 +71,11 @@ const Sidebar = ({ data, onPathSelected, currentPathForSiblings }) => {
   }
 
   return (
-    <aside className="sidebar">
+    <aside className="sidebar"
+    style={{
+        background: `linear-gradient(rgba(0, 31, 63, 0.89), rgba(0, 31, 63, 0.91)), url("/Assets/Image32.jpg") center/cover no-repeat`
+      }}
+    >
       <h1 className="sidebar-main-title">{data.name}</h1>
       <nav>
         {(data.colleges || []).map((college) => (

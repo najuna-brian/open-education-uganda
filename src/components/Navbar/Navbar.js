@@ -22,7 +22,11 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="navbar">
+    <nav className="navbar"
+    style={{
+        background: `linear-gradient(rgba(14, 32, 49, 0.89), rgba(7, 29, 52, 0.7)), url("/Assets/Image1.jpg") center/cover no-repeat`
+      }}
+    >
       <div className="navbar-container">
         <div className="navbar-brand">
           <Link to="/" className="navbar-logo">

@@ -6,31 +6,30 @@ const About = () => {
   const teamMembers = [
     {
       id: 1,
-      name: "Dr. Sarah Kintu",
+      name: "Najuna Brian",
       role: "Founder & Director",
-      bio: "Education specialist with 15 years of experience in curriculum development.",
+      bio: "Medical School graduate and Software engineer with 7 years of experience in curriculum development.",
       avatar: "👩🏾‍💼"
     },
     {
       id: 2,
-      name: "James Mwesigwa",
-      role: "Technical Lead",
-      bio: "Software engineer passionate about making education accessible through technology.",
+      name: "Jerry Laruba Festus",
+      role: "Designer & Technical Lead",
+      bio: "Architect and Software engineer passionate about making education accessible through technology.",
       avatar: "👨🏾‍💻"
     },
-    {
-      id: 3,
-      name: "Grace Nakimera",
-      role: "Content Manager",
-      bio: "Former university lecturer dedicated to curating high-quality educational materials.",
-      avatar: "👩🏾‍🏫"
-    }
   ];
 
   return (
-    <div className="about-page">
+    <div className="about-page"
+style={{
+        background: `linear-gradient(rgba(0, 31, 63, 0.8), rgba(0, 31, 63, 0.8)), url("/Assets/Image48.jpg") center/cover no-repeat`
+      }}
+
+    >
       <section className="about-hero">
-        <div className="hero-content">
+        <div className="hero-content"
+        >
           <h1>About Open Education Uganda</h1>
           <p className="hero-text">Our mission is to democratize access to quality education across Uganda</p>
         </div>
@@ -55,8 +54,10 @@ const About = () => {
         </div>
       </section>
 
-      <section className="team-section">
+      <section className="team-section"
+      >
         <h2>Meet Our Team</h2>
+        <h3>The Creative Minds Behind our Mission's Success!</h3>
         <div className="team-grid">
           {teamMembers.map(member => (
             <TeamMember key={member.id} member={member} />
@@ -64,7 +65,11 @@ const About = () => {
         </div>
       </section>
 
-      <section className="stats-section">
+      <section className="stats-section"
+      style={{
+        background: `linear-gradient(rgba(2, 44, 86, 0.8), rgba(0, 52, 104, 0.8)), url("/Assets/Image6.jpg") center/cover no-repeat`,
+    animation: "footerBgScroll 12s ease-in-out infinite alternate"
+      }}>
         <div className="stats-container">
           <div className="stat-item">
             <h3>3+</h3>

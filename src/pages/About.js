@@ -1,6 +1,18 @@
 import React from 'react';
 import './About.css';
-import TeamMember from '../components/TeamMember/TeamMember';
+
+// Embedded TeamMember Component
+const TeamMember = ({ member }) => {
+  const { name, role, bio, avatar } = member;
+  return (
+    <div className="team-member">
+      <div className="avatar">{avatar}</div>
+      <div className="name">{name}</div>
+      <div className="role">{role}</div>
+      <div className="bio">{bio}</div>
+    </div>
+  );
+};
 
 const About = () => {
   const teamMembers = [
@@ -21,17 +33,14 @@ const About = () => {
   ];
 
   return (
-    <div className="about-page"
-style={{
-        background: `linear-gradient(rgba(0, 31, 63, 0.8), rgba(0, 31, 63, 0.8)), url("/Assets/Image48.jpg") center/cover no-repeat`
-      }}
-
-    >
+    <div
+      className="about-page">
       <section className="about-hero">
-        <div className="hero-content"
-        >
+        <div className="hero-content">
           <h1>About Open Education Uganda</h1>
-          <p className="hero-text">Our mission is to democratize access to quality education across Uganda</p>
+          <p className="hero-text">
+            Our mission is to democratize access to quality education across Uganda
+          </p>
         </div>
       </section>
 
@@ -39,23 +48,21 @@ style={{
         <div className="mission-content">
           <h2>Our Mission</h2>
           <p>
-            Open Education Uganda was founded in 2020 with the goal of breaking down barriers to education. 
-            We believe every Ugandan student deserves access to high-quality learning resources, regardless 
+            Open Education Uganda was founded in 2020 with the goal of breaking down barriers to education.
+            We believe every Ugandan student deserves access to high-quality learning resources, regardless
             of their institution or financial situation.
           </p>
           <p>
-            Through partnerships with universities, educators, and technology experts, we've built a platform 
+            Through partnerships with universities, educators, and technology experts, we've built a platform
             that brings together the best educational content from across the country.
           </p>
         </div>
         <div className="mission-image">
-          {/* This would be an image in a real implementation */}
           <div className="image-placeholder">📚</div>
         </div>
       </section>
 
-      <section className="team-section"
-      >
+      <section className="team-section">
         <h2>Meet Our Team</h2>
         <h3>The Creative Minds Behind our Mission's Success!</h3>
         <div className="team-grid">
@@ -65,11 +72,13 @@ style={{
         </div>
       </section>
 
-      <section className="stats-section"
-      style={{
-        background: `linear-gradient(rgba(2, 44, 86, 0.8), rgba(0, 52, 104, 0.8)), url("/Assets/Image6.jpg") center/cover no-repeat`,
-    animation: "footerBgScroll 12s ease-in-out infinite alternate"
-      }}>
+      <section
+        className="stats-section"
+        style={{
+          background: `linear-gradient(rgba(2, 44, 86, 0.8), rgba(0, 52, 104, 0.8)), url("/Assets/Image6.jpg") center/cover no-repeat`,
+          animation: "footerBgScroll 12s ease-in-out infinite alternate",
+        }}
+      >
         <div className="stats-container">
           <div className="stat-item">
             <h3>3+</h3>

@@ -1,4 +1,5 @@
 .login-page {
+  background: linear-gradient(rgba(64, 97, 130, 0.717), rgba(35, 77, 119, 0.749)), url('../../public/Assets/Image40.jpg') center/cover no-repeat;
   width: 1200px;
   margin-left: 40px;
   display: flex;
@@ -6,19 +7,18 @@
   align-items: center;
   min-height: calc(100vh - 200px);
   padding: 2rem;
-  background-color: #f5f5f5;
   padding: 2.5rem;
-  border-radius: 8px;
+  border-radius: 8px; 
+  animation: panBackground 20s infinite linear;
 }
 
 .login-container {
-  background-color: #ffffff;
+  background: linear-gradient(rgba(51, 67, 84, 0.8), rgba(0, 31, 63, 0.8)), url('../../public/Assets/Image45.jpg') center/cover no-repeat;
   padding: 2.5rem;
   border-radius: 8px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.767);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.824);
   width: 100%;
   max-width: 450px;
-  animation: slideUp 0.5s ease-out;
 }
 
 .login-container h1 {
@@ -114,11 +114,18 @@
   }
 }
 
-@keyframes footerBgScroll {
+@keyframes panBackground {
   0% {
+    background-position: center;
+  }
+  50% {
     background-position: center top;
   }
   100% {
-    background-position: center bottom;
+    background-position: center;
   }
 }
+
+
+
+

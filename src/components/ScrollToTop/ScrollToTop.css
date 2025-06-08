@@ -12,9 +12,9 @@
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-color: #0074d9;
+  background-color: #0074d9bb;
   color: white;
-  border: none;
+  border: 2px;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -26,21 +26,23 @@
 }
 
 .scroll-to-top:hover, .nav-arrow:hover {
-  background-color: #0056b3;
+  background-color: #0057b3e1;
   transform: translateY(-3px);
   opacity: 1;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.76);
 }
 
 .nav-arrow.back {
-  background-color: #6c757d;
+  background-color: #6c757dd8;
 }
 
 .nav-arrow.forward {
-  background-color: #6c757d;
+  background-color: #6c757dd8;
 }
 
 .nav-arrow.back:hover, .nav-arrow.forward:hover {
-  background-color: #5a6268;
+  background-color: #5a6268e4;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.76);
 }
 
 @media (max-width: 768px) {

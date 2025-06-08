@@ -1,8 +1,10 @@
 .about-page {
+  background: linear-gradient(rgba(51, 67, 84, 0.8), rgba(0, 31, 63, 0.8)), url('../../public/Assets/Image48.jpg') center/cover no-repeat;
   max-width: 100%;
   overflow-x: hidden;
   width: 1200px;
   margin-left: 40px;
+  border-radius: 20px;
 }
 
 .about-hero {
@@ -14,7 +16,6 @@
   text-align: center;
   width: 1000px;
   max-width: 90%;
-  padding: 5rem 1rem;
   text-align: center;
   margin: 2rem auto;
   border: 3px solid white;
@@ -94,18 +95,20 @@
   padding: 4rem 1rem;
 }
 
-.team-section h2 {
+.team-section h2,
+.team-section h3 {
   text-align: center;
   color: #001f3f;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
+}
+
+.team-section h2 {
   font-size: 2rem;
 }
 
 .team-section h3 {
-  text-align: center;
-  color: #001f3f;
+  font-size: 1.25rem;
   margin-bottom: 3rem;
-  font-size: 1rem;
 }
 
 .team-grid {
@@ -115,6 +118,67 @@
   max-width: 1200px;
   margin: 0 auto;
 }
+
+/* 🔥 Team Member Card Styles */
+.team-member {
+  background-color: #ffffff;
+  border: 2px solid #001f3f;
+  border-radius: 16px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+  padding: 2rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  cursor: pointer;
+}
+
+.team-member:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
+
+/* Avatar styling */
+.team-member .avatar {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.team-member:hover .avatar {
+  transform: scale(1.1) rotate(2deg);
+}
+
+/* Name and Role */
+.team-member .name {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #001f3f;
+  margin-bottom: 0.5rem;
+}
+
+.team-member .role {
+  font-size: 1rem;
+  color: #003366;
+  margin-bottom: 1rem;
+}
+
+/* Bio hidden by default, shown on hover */
+.team-member .bio {
+  font-size: 0.95rem;
+  color: #333;
+  opacity: 0;
+  max-height: 0;
+  transition: opacity 0.4s ease, max-height 0.4s ease;
+  overflow: hidden;
+}
+
+.team-member:hover .bio {
+  opacity: 1;
+  max-height: 150px;
+  margin-top: 1rem;
+}
+
 
 .stats-section {
   padding: 4rem 1rem;

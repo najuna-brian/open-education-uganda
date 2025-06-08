@@ -32,11 +32,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="contact-page"
-    style={{
-        background: `linear-gradient(rgba(0, 31, 63, 0.89), rgba(0, 31, 63, 0.91)), url("/Assets/Image28.jpg") center/cover no-repeat`
-      }}
-    >
+    <div className="contact-page">
       <section className="contact-hero">
         <div className="hero-content">
           <h1>Contact Us</h1>

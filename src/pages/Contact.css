@@ -1,12 +1,14 @@
 .contact-page {
+  background: linear-gradient(rgba(51, 67, 84, 0.8), rgba(0, 31, 63, 0.8)), url('../../public/Assets/Image24.jpg') center/cover no-repeat;
   max-width: 100%;
   width: 1200px;
   overflow-x: hidden;
   margin-left: 40px;
+  border-radius: 20px;
 }
 
 .contact-hero {
-  background: linear-gradient(rgba(51, 67, 84, 0.8), rgba(0, 31, 63, 0.8)), url('../../public/Assets/Image43.jpg') center/cover no-repeat;
+  background: linear-gradient(rgba(51, 67, 84, 0.8), rgba(0, 31, 63, 0.8)), url('../../public/Assets/Image46.jpg') center/cover no-repeat;
   background-size: 110%;
   animation: moveBackground 10s infinite alternate ease-in-out;
   color: white;
@@ -144,6 +146,7 @@
 }
 
 .map-container {
+  background: linear-gradient(rgba(51, 67, 84, 0.8), rgba(0, 31, 63, 0.8)), url('../../public/Assets/Image24.jpg') center/cover no-repeat;
   max-width: 1200px;
   margin: 0 auto;
 }

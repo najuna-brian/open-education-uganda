@@ -39,7 +39,7 @@ const About = () => {
         <div className="hero-content">
           <h1>About Open Education Uganda</h1>
           <p className="hero-text">
-            Our mission is to democratize access to quality and substancial education across Uganda
+            Our mission is to democratize access to quality and substancial education across all regions of Uganda
           </p>
         </div>
       </section>

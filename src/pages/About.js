@@ -20,14 +20,14 @@ const About = () => {
       id: 1,
       name: "Najuna Brian",
       role: "Founder & Director",
-      bio: "Medical School graduate and Software engineer with 7 years of experience in curriculum development.",
+      bio: "Medical School graduate, Business mogul and Software engineer with 7 years of experience in curriculum development.",
       avatar: "👩🏾‍💼"
     },
     {
       id: 2,
       name: "Jerry Laruba Festus",
       role: "Designer & Technical Lead",
-      bio: "Architect and Software engineer passionate about making education accessible through technology.",
+      bio: "Architect, Graphical & Visual Designer and Software engineer passionate about making education accessible through technology.",
       avatar: "👨🏾‍💻"
     },
   ];

@@ -39,7 +39,7 @@ const About = () => {
         <div className="hero-content">
           <h1>About Open Education Uganda</h1>
           <p className="hero-text">
-            Our mission is to democratize access to quality education across Uganda
+            Our mission is to democratize access to quality and substancial education across all regions of Uganda
           </p>
         </div>
       </section>
@@ -48,9 +48,9 @@ const About = () => {
         <div className="mission-content">
           <h2>Our Mission</h2>
           <p>
-            Open Education Uganda was founded in 2020 with the goal of breaking down barriers to education.
+            Open Education Uganda was founded in 2020 by the Director Najuna Brian with the goal of breaking down barriers to education.
             We believe every Ugandan student deserves access to high-quality learning resources, regardless
-            of their institution or financial situation.
+            of their institution or financial situation. He then got the Architect of the mission, Jerry Laruba Festus to begin setting the plans in motion.
           </p>
           <p>
             Through partnerships with universities, educators, and technology experts, we've built a platform

@@ -54,7 +54,7 @@ const About = () => {
           </p>
           <p>
             Through partnerships with universities, educators, and technology experts, we've built a platform
-            that brings together the best educational content from universities all across the country.
+            that brings together the best educational content from universities across the entire country.
           </p>
         </div>
         <div className="mission-image">
